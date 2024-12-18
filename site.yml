@@ -1,0 +1,8 @@
+---
+- name: Playbook to pull and use a role from an SCM
+  hosts: all
+
+  roles:
+    - role: pink_milk
+      vars:
+        pink_milk_phrase: "I'm Rick James!"
